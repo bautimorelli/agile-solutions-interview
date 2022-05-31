@@ -10,18 +10,18 @@ document.addEventListener("DOMContentLoaded", function () {
 		},
 		xAxis: {
 			title: {
-				text: "Meses",
+				text: "Months",
 			},
 			categories: ["Junuary", "Febuary", "March", "April"],
 		},
 		yAxis: {
 			title: {
-				text: "Ventas",
+				text: "Sales",
 			},
 		},
 		series: [
 			{
-				name: "Ventas",
+				name: "Sales",
 				data: [100, 300, 400, 550],
 			},
 		],
