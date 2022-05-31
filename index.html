@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title> 
+		<script src="https://code.highcharts.com/highcharts.js"></script>
+		<script defer src="main.js"></script>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<section class="flex">
+			<article>
+				<label for="category">Categoria: </label>
+				<select name="category" id="category">
+					<option value="food">Comida</option>
+					<option value="transport">Transporte</option>
+					<option value="phones">Celulares</option>
+				</select>
+			</article>
+			<article>
+				<label for="product">Producto: </label>
+				<select name="product" id="product">
+					<option value="banana">Banana</option>
+					<option value="apple">Manzana</option>
+					<option value="grapes">Uvas</option>
+				</select>
+			</article>
+			<article>
+				<label for="brand">Marca: </label>
+				<select name="brand" id="brand">
+					<option value="food">Fruta1</option>
+					<option value="cars">Fruta2</option>
+					<option value="pc">Fruta3</option>
+				</select>
+			</article>
+		</section>
+
+		<div id="container" style="width: 100%; height: 400px"></div>
+	</body>
+</html>
