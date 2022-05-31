@@ -77,18 +77,18 @@ const chartData = [
 				],
 			},
 			{
-				title: "Manzana",
+				title: "Apple",
 				values: [
 					{
-						title: "Manzana1",
+						title: "Apple1",
 						data: [300, 500, 200, 300],
 					},
 					{
-						title: "Manzana2",
+						title: "Apple2",
 						data: [300, 300, 300, 300],
 					},
 					{
-						title: "Manzana3",
+						title: "Apple3",
 						data: [500, 400, 300, 200],
 					},
 				],
